@@ -1,0 +1,27 @@
+<html>
+    <head>
+        <title>Home</title>
+        <meta http-equiv="Content-Type" content="text/html;charset=UTF-8">
+    </head>
+    <style>
+    .big{
+        font-size: 20px;
+    }
+    .biginput{
+        width: 150px;
+        height: 30px;
+        font-size: 20px;
+    }
+    </style>
+    <body>
+
+        <div style="width: 300px;height:200px;text-align: center">
+                <br/>
+                <span class="big">用户名称：</span><input class="biginput" type="text" id="ur_name" /><br/><br/>
+                <span class="big">用户密码：</span><input class="biginput" type="password" id="ur_pwss" /><br/><br/>
+                <input type="button" class="biginput" id="save_pass_bt" value="保存" onclick="save_password()" /><br/><br/>
+				<input type="button" class="biginput" id="auso_login_bt" value="自动填写" onclick="auto_login()" /><br/><br/>
+        </div>
+        <script src="js/ulog_login.js" ></script>
+    </body>
+</html>
