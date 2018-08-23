@@ -9,7 +9,7 @@
   "permissions": [
 	"storage",
 	"tabs",
-    "http://*.eloancn.*/login*"
+    "http://ulog.eloancn.com/*"
 	
   ],
   
